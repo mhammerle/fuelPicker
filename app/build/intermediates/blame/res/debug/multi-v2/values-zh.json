@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/matheus/AndroidStudioProjects/fuelPicker/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml",
+            "map": [
+                {
+                    "source": "/home/matheus/AndroidStudioProjects/fuelPicker/app/src/main/res/values-zh/strings.xml",
+                    "from": {
+                        "startLines": "-1,-1,6,-1,7,-1",
+                        "startColumns": "-1,-1,4,-1,4,-1",
+                        "startOffsets": "-1,-1,258,-1,297,-1",
+                        "endColumns": "-1,-1,38,-1,39,-1",
+                        "endOffsets": "-1,-1,292,-1,332,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,103,152,191,244,284",
+                        "endColumns": "47,48,38,52,39,52",
+                        "endOffsets": "98,147,186,239,279,332"
+                    }
+                }
+            ]
+        }
+    ]
+}
