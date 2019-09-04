@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">fuelPicker</string>
+    <string name="gasoline_price">"汽油价格/升 "</string>
+    <string name="ethanol_price">"乙醇价格/加仑 "</string>
+    <string name="best_choice">"最好使用： "</string>
+    <string name="ethanol">乙醇</string>
+    <string name="gasoline">汽油</string>
+</resources>

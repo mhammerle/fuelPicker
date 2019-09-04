@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fuelPickerGridLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:orientation="vertical"
+    android:useDefaultMargins="true"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/gasolineTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_columnSpan="1"
+        android:layout_gravity="fill_horizontal|left"
+        android:height="@dimen/seekbar_height"
+        android:background="?attr/colorPrimary"
+        android:elevation="@dimen/elevation"
+        android:padding="@dimen/padding"
+        android:text="@string/gasoline_price"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/gasolineValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_columnSpan="1"
+        android:layout_gravity="right"
+        android:height="@dimen/seekbar_height"
+        android:elevation="@dimen/elevation"
+        android:padding="@dimen/padding"
+        android:text="R$ 4,20"
+        android:textColor="@android:color/background_light" />
+
+    <SeekBar
+        android:id="@+id/gasolineSeekbar"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/seekbar_height"
+        android:layout_gravity="fill_horizontal"
+        android:max="60"
+        android:min="25"
+        android:padding="@dimen/padding"
+        android:progress="42" />
+
+    <TextView
+        android:id="@+id/ethanolTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_gravity="fill_horizontal|left"
+        android:height="@dimen/seekbar_height"
+        android:background="@color/colorPrimary"
+        android:elevation="@dimen/elevation"
+        android:padding="@dimen/padding"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:text="@string/ethanol_price"
+        android:textColor="?attr/colorBackgroundFloating" />
+
+    <TextView
+        android:id="@+id/ethanolValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_gravity="right"
+        android:height="@dimen/seekbar_height"
+        android:elevation="@dimen/elevation"
+        android:padding="@dimen/padding"
+        android:text="R$ 3,30"
+        android:textColor="@android:color/background_light" />
+
+    <SeekBar
+        android:id="@+id/ethanolSeekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:max="50"
+        android:min="15"
+        android:padding="@dimen/padding"
+        android:progress="33" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/fuelPickedTextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:hint="@string/best_choice"
+        android:padding="@dimen/padding"
+        android:textColorHint="@android:color/background_light">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/fuelPickedTextInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:text="Altere o valor acima"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="@android:color/background_light"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/fuelPickedImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/image_height"
+        android:elevation="@dimen/elevation"
+        android:padding="@dimen/padding"
+        app:srcCompat="@drawable/default_img" />
+
+</GridLayout>

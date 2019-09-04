@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">fuelPicker</string>
+    <string name="gasoline_price">Gasoline Price/ Gallon</string>
+    <string name="ethanol_price">Ethanol Price/ Gallon</string>
+    <string name="best_choice">It\'s better to use:</string>
+    <string name="ethanol">Ethanol</string>
+    <string name="gasoline">Gasoline</string>
+</resources>

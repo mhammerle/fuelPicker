@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">fuelPicker</string>
+    <string name="best_choice">É melhor usar:</string>
+    <string name="ethanol_price">Preço do Etanol/ Litro</string>
+    <string name="gasoline_price">Preço da Gasolina/ Litro</string>
+    <string name="ethanol">Etanol</string>
+    <string name="gasoline">Gasolina</string>
+</resources>
